@@ -58,7 +58,7 @@ stalj@uek.krakow.pl
     
     > Hint: create a text file bmi.py and copy and paste the program below. Please note that each program line must start in the first column. Remove unnecessary spaces if necessary.
 
-    ```python
+    py 
     ###
     # BMI Calculator
     #
@@ -70,7 +70,7 @@ stalj@uek.krakow.pl
     bmi = round(bmi,2)
     print('Your BMI is', bmi)
     print('Check on the Internet if your BMI is ok!!')
-    ```
+    ``` py
 
 1. To create computer programs, it is most convenient to use an integrated environment (IDE). This tool allows you to both create a program and run it. One of the popular tools is Microsoft Visual Studio Code (VS Code).
 
