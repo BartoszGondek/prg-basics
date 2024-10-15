@@ -1,3 +1,6 @@
-h = input(' Enter height')
-d= 3,57 * (h ** 1/2) 
-print ('The distance is', d)
+import math 
+mineheight = 1.8
+windowsheight = 20
+distance = math.sqrt(mineheight) * 3.57 
+distance2= math.sqrt(windowsheight) * 3.57
+print ('The first distance in km is', distance, 'The second distance in km is', distance2)

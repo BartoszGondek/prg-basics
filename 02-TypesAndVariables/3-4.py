@@ -3,5 +3,5 @@
 # prints the speed in m/s
 #
 speed_kmh = 70 
-speed_ms = int(speed_kmh/1.62 * 3600)
+speed_ms = (0,27*speed_kmh )
 print(speed_kmh, "km/h = ", speed_ms, "m/s")
