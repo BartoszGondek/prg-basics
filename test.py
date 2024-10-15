@@ -1,11 +1,12 @@
-# 3x3 Tic-Tac-Toe board
-tic_tac_toe_board = [
-    ['X', 'O', 'X'],
-    [' ', 'X', 'O'],
-    ['O', ' ', 'X']
-]
+temperature = 35  # In Celsius
 
-for row in tic_tac_toe_board:
-    for item in row:
-        print(item, end=" ")
-    print()
+if temperature > 10:
+    print("It's a bit chilly. You might need a jacket.")
+elif temperature > 20:
+    print("The weather is nice. How about a walk?")
+elif temperature > 30:
+    print("It's hot outside. Stay hydrated!")
+else:
+    print("It's cold! Stay indoors or bundle up!")
+
+print('I hope I helped somehow.')
