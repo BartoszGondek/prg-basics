@@ -1,0 +1,5 @@
+avg_speed = lambda  distance,hours,minutes : round(distance/(hours+(minutes/60)),1)
+distance = int(input('Enter distance: '))
+hours = int(input('Enter hours: '))
+minutes = int(input('Enter minutes: '))
+print(f'{avg_speed(distance,hours,minutes)} km/h')
