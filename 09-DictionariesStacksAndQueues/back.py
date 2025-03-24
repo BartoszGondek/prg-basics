@@ -16,7 +16,7 @@ while True:
          break
       else:
          print('<-- Going back to a previously visited website')
-         website = ...
+         website = visited_websites.get
    elif ... != "":
       ...
 

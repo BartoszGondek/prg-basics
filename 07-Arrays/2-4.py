@@ -6,6 +6,8 @@ print(arr[0])
 print(arr[1])
 print(arr[-1])
 print(len(arr)-1)
-print(arr[0] + arr[4])
+print(arr[0] + arr[-1])
 print(arr[len(arr)//2])
-#print("?????")
+
+for char in arr:
+   print(char, end=" ")
